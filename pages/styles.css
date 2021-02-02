@@ -9,3 +9,18 @@
 .image img {
   width: 100%;
 }
+
+.page {
+  align-items: center;
+  justify-content: center;
+}
+
+.paragraph{
+  text-align: center;
+  font-size: 24pt;
+}
+
+.profilepic img {
+  height: 90 px;
+  width: 135 px;
+}
