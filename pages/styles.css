@@ -20,7 +20,11 @@
   font-size: 24pt;
 }
 
-.profilepic img {
-  height: 90 px;
-  width: 135 px;
+#profilepic {
+  height: 200px;
+  padding-left: 500px;
+}
+
+.h1 {
+  padding-left: 200px;
 }

@@ -1,23 +1,80 @@
+* {
+  font-family:Arial;
+}
+
+@media only screen and (max-width: 1090px) {
+  .paragraph {
+    color:rgba(24, 24, 24, 0.801);
+    text-align: left;
+    padding-right: 60%;
+    padding-left: 5px;
+  }
+}
+
+@media only screen and (min-width: 1090px) {
+  .paragraph {
+    color:rgba(24, 24, 24, 0.801);
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    font-size: 20pt;
+  }
+}
+
+
 .selector-for-some-widget {
   box-sizing: content-box;
 }
 
-/* Menu */
-.bg-dark {
-  background-color: #7DD3D8 !important;
+html, body {
+  margin: 0;
+  padding: 0;
 }
-.header-container {
-  color: #7cc1ca;
-  background-color: #9ed3e0;
-  display: flex;
-  justify-content: center;
+
+/* Menu */
+.page {
+height: 1200px;
+background-image: url(clouds.jpeg);
+background-size: cover;
+background-position:top;
+}
+
+.nav ul {
+  margin: 0;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  font-size: 2rem;
+  display: inline-block;
+  padding: .5em;
+  color: rgba(22, 22, 22, 0.527);
+  text-decoration: none;
+}
+
+.main-nav {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: lighter;
+}
+
+.main-nav li {
+  padding: 0 5%;
+}
+
+.nav a:hover {
+  background-color: rgba(49, 190, 209, 0.3)
 }
 
 .header {
-  width: 100%;
-  height: 300px;
+  color:rgba(17, 54, 22, 0.726);
+  font-size: 30pt;
+  padding: 40px;
   display: flex;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
 }
 
@@ -32,7 +89,7 @@
   align-items:flex-end;
   color: aquamarine;
   background-color: #D6E9FE;
-  height: 200px;
+  height: 50px;
 }
 
 .image{
@@ -40,14 +97,3 @@
   width: 100%;
 }
 
-.paragraph{
-  text-align: center;
-  font-size: 24pt;
-}
-
-@media only screen and (min-width: 961px) {
-  .paragraph{
-    padding-left: 4in;
-    padding-right: 4in;
-  }
-}
